@@ -27,3 +27,15 @@ In this project, we implement and compare different reinforcement learning algor
 - `learningAgents.py`: Defines base classes for reinforcement learning agents.
 - `gridworld.py`: The Gridworld environment implementation.
 - `util.py`: Utility functions and data structures used by the agents.
+
+For example, to test the Q-Learning agent, run:
+```bash
+python gridworld.py -a q -k 5
+ ```
+Refer to the comments in the individual files for detailed usage of specific agents or tasks.
+
+## Results
+The agents were tested on various Gridworld layouts, and their performance was evaluated based on their ability to learn and execute optimal policies. The results demonstrate the effectiveness of each algorithm in different scenarios, with particular emphasis on the trade-offs between exploration and exploitation in Q-Learning.
+
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
